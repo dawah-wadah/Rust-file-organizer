@@ -1,7 +1,7 @@
 # Rust File Organizer
 
 ## Description
-    This is a media file organizer. It will traverse a folder path and will move all media files inside the folder (recursively) to a pre-determined location (storage).
+This is a media file organizer. It will traverse a folder path and will move all media files inside the folder (recursively) to a pre-determined location (storage).
 ## Installation
 ## Usage
 ## Game Plan
