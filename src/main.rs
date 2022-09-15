@@ -1,4 +1,6 @@
 #![allow(unused)]
+mod file_entry;
+
 use readable_byte::readable_byte;
 use std::env;
 use std::error::Error;
@@ -38,15 +40,6 @@ fn main() {
 struct Config {
     path: String,
     destination: String,
-}
-
-struct FileEntry {
-    name: String,
-    old_path: String,
-    new_path: String,
-    date_created: String,
-    date_modified: String,
-    date_moved: String,
 }
 
 impl Config {
